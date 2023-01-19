@@ -22,7 +22,7 @@ const IndicatorDetail = ({
   data: { codigo, nombre, unidad_medida, serie },
 }: any) => {
   return (
-    <Container py={6} ml={40} mr={40}>
+    <Container py={6} ml={20} mr={20}>
       <Card>
         <CardHeader>
           <Link as={NextLink} href="/">
