@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Front que consume el api desplegada en railway
+
+## Obtiene 1 indicador especifico
+
+https://kabeli-api-production.up.railway.app/api/indicators/uf
+
+## Obtiene todos los indicadores
+
+https://kabeli-api-production.up.railway.app/api/indicators/all
 
 ## Getting Started
 
