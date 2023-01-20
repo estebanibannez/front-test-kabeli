@@ -37,7 +37,10 @@ export const getServerSideProps: GetStaticProps = async (context) => {
   const res = await fetch(
     `https://kabeli-api-production.up.railway.app/api/indicators/all`,
   );
+
   const data: any[] = await res.json();
+
+  // console.log(data);
 
   const indicators = R.compose(
     R.values,
